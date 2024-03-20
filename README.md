@@ -11,7 +11,7 @@ Our world is facing many urgent challenges, such as climate change, water insecu
 
 One critical tool for understanding and improving the urgent challenges facing our world is *Earth observation data*, meaning data that is gathered in outer space about life here on Earth! Earth observation data provides accurate and publicly accessible information on our atmosphere, oceans, ecosystems, land cover, and built environment. The United States and its partners have a long history of exploring outer space and making satellite, airborne, and in-situ sensor datasets openly available to all.
 
-**In this challenge, participants created visualizations using Earth observation data that advanced the Sustainable Development Goals of zero hunger, clean water, and climate action.**
+**In this challenge, participants created visualizations using Earth observation data that advanced the Sustainable Development Goals of zero hunger, clean water, and climate action.** The challenge was designed enable a broader, more diverse audience to engage with Earth observation data and take advantage of its potential.
 
 ## What's in this Repository
 

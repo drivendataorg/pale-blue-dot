@@ -61,9 +61,9 @@ We believe that this tool has great potential to help communities mitigate water
 # Data
 For our training data, we conducted an extensive literature review into past studies, as well as key concepts such as the water balance equation, in order to determine the variables that would provide a comprehensive set of information for predicting groundwater level. We then collected, cleaned, preprocessed, and integrated the datasets together using Python scripts (see [scripts/preprocessing](https://github.com/franfurey/aquaViva/tree/master/scripts/preprocessing)) and Jupyter Notebooks (see [notebooks/preprocessing](https://github.com/franfurey/aquaViva/tree/master/notebooks/preprocessing))
 
-1. **Data Collection:** First and foremost, we used IGRAC/GGIS to obtain piezometric (groundwater level) data from 2015-2022 for 36 wells distributed across Gambia. Then we gathered corresponding data for our 13 input variables (see <a href="#features">Features</a>), sourced from AρρEEARS, ClimateSERV, BGS, and GGIS (see <a href="#data-sources">Data Sources</a>). Most of the raw data is available under [data/original_data](https://github.com/franfurey/aquaViva/tree/master/data/original_data) (except for a few files that were too large to upload) 
-2. **Data Cleaning and Preprocessing:** We used Jupyter notebooks (see [notebooks/preprocessing](https://github.com/franfurey/aquaViva/tree/master/notebooks/preprocessing)) to manage the various data formats (.nc4, .nc, .csv), visualize/analyze the raw data, and account for missing/erroneous data using nearest neighbor algorithms and linear interpolation. QGIS was also used to process hydrogeological region and topographical data. All processed data is available under [data/processed_data](https://github.com/franfurey/aquaViva/tree/master/data/processed_data)
-3. **Data Integration:** Using pandas & geopandas, we merged datasets based on date, latitude, and longitude to form our primary dataset, which consisted of ~6600 rows (see [data/processed_data/wells_data_gambia_for_machine_learning.csv](https://github.com/franfurey/aquaViva/blob/master/data/processed_data/wells_data_gambia_for_machine_learning.csv))
+1. **Data Collection:** First and foremost, we used IGRAC/GGIS to obtain piezometric (groundwater level) data from 2015-2022 for 36 wells distributed across Gambia. Then we gathered corresponding data for our 13 input variables (see <a href="#features">Features</a>), sourced from AρρEEARS, ClimateSERV, BGS, and GGIS (see <a href="#data-sources">Data Sources</a>).
+2. **Data Cleaning and Preprocessing:** We used Jupyter notebooks (see [notebooks/preprocessing](https://github.com/franfurey/aquaViva/tree/master/notebooks/preprocessing)) to manage the various data formats (.nc4, .nc, .csv), visualize/analyze the raw data, and account for missing/erroneous data using nearest neighbor algorithms and linear interpolation. QGIS was also used to process hydrogeological region and topographical data.
+3. **Data Integration:** Using pandas & geopandas, we merged datasets based on date, latitude, and longitude to form our primary dataset, which consisted of ~6600 rows
 
 ### Data Sources
 
@@ -96,6 +96,116 @@ For our training data, we conducted an extensive literature review into past stu
 | Datatype                                      | Description                                      | Data Source                                 |
 |-----------------------------------------------|--------------------------------------------------|---------------------------------------------|
 | GROUNDWATER_LEVEL                             | Groundwater Level                                | IGRAC/GGIS                                  |
+
+### Data file structure
+
+Once all code has been run, the top-level `data` folder should include:
+
+<details>
+<summary><code>data</code></summary>
+
+```
+data
+├── final_dataset
+│   ├── final_dataset_ready_for_visualization.csv
+│   ├── final_dataset_with_predictions.csv
+│   ├── original
+│   │   └── gambia_lat_and_long.csv
+│   └── processed_data
+│       ├── appears
+│       │   └── appears_ndvi_mir_evi.csv
+│       └── merged_data.csv
+├── original_data
+│   ├── appears
+│   │   └── request_sample.json
+│   ├── british_geological_survey_africa
+│   │   ├── DepthToGroundwater_V2
+│   │   │   ├── ConvertGWMapsRasterShapefile.txt
+│   │   │   ├── readme_dtw_v2.txt
+│   │   │   └── xyzASCII_dtwmap_v2.txt
+│   │   ├── GroundwaterProductivity
+│   │   │   ├── ConvertGWMapsRasterShapefile.txt
+│   │   │   ├── readme_gwprod_v1.txt
+│   │   │   └── xyzASCII_gwprod_v1.txt
+│   │   └── GroundwaterStorage
+│   │       ├── ConvertGWMapsRasterShapefile.txt
+│   │       ├── readme_gwstor_v1.txt
+│   │       └── xyzASCII_gwstor_v1.txt
+│   ├── climateserv
+│   │   ├── area_of_interest_1
+│   │   │   └── 12-01-2023
+│   │   │       ├── LIS_Baseflow.nc
+│   │   │       ├── LIS_ET.nc
+│   │   │       ├── LIS_Runoff.nc
+│   │   │       ├── LIS_Soil_Moisture_0_10cm.nc
+│   │   │       ├── LIS_Soil_Moisture_100_200cm.nc
+│   │   │       ├── LIS_Soil_Moisture_10_40cm.nc
+│   │   │       ├── LIS_Soil_Moisture_40_100cm.nc
+│   │   │       └── NASA_IMERG_Late.nc
+│   │   ├── lis_et
+│   │   │   └── gambia
+│   │   │       ├── 0000000001.csv
+│   │   │       └── ...
+│   │   ├── lis_soil_moisture
+│   │   │   └── gambia
+│   │   │       ├── 0000000001.csv
+│   │   │       └── ...
+│   │   ├── lis_streamflow
+│   │   │   └── gambia
+│   │   │       ├── 0000000001.csv
+│   │   │       └── ...
+│   │   └── nasa_imerg_late
+│   │       └── gambia
+│   │           ├── 0000000001.csv
+│   │           └── ...
+│   └── igrac
+│       └── gambia
+│           ├── monitoring
+│           │   ├── NWP00001.xlsx
+│           │   └── ...
+│           └── wells.xlsx
+└── processed_data
+    ├── british_geological_survey_africa
+    │   └── combined_data_filled.csv
+    ├── climateserv
+    │   ├── lis_et
+    │   │   └── gambia
+    │   │       ├── 0000000001.csv
+    │   │       └── ...
+    │   ├── lis_soil_moisture
+    │   │   └── gambia
+    │   │       ├── 0000000001.csv
+    │   │       └── ...
+    │   ├── lis_streamflow
+    │   │   └── gambia
+    │   │       ├── 0000000001.csv
+    │   │       └── ...
+    │   └── nasa_imerg_late
+    │       └── gambia
+    │           ├── 0000000001.csv
+    │           └── ...
+    ├── final_data_gambia.csv
+    ├── igrac
+    │   ├── igrac_gambia.csv
+    │   ├── wells_gambia.csv
+    │   └── wells_gambia_final.csv
+    └── wells_data_gambia_for_machine_learning.csv
+```
+
+</details>
+
+`visualization/data` should include:
+
+<details>
+<summary><code>visualization/data</code></summary>
+
+```
+visualization/data
+├── interpolated_groundwater_dataset.csv
+└── interpolated_groundwater_dataset_cleaned.csv
+```
+
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

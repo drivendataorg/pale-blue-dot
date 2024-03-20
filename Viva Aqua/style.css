@@ -1,0 +1,115 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+/*Body*/
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #004f74 0%, #000000 100%);
+    overflow: hidden;
+    min-height: 100vh;
+  }
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: underline; }
+
+body h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vmax;
+    color: #29bbff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 30vh;
+}
+body h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.35vmax;
+    letter-spacing: 0.15vmax;
+    color: #008dce;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 30vh;
+}
+#button-container {
+    position: absolute; /* Absolute positioning */
+    left: 50%; /* Center horizontally */
+    bottom: 18vh;
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    width: 6vw; /* Auto width based on content */
+}
+
+#button1 {
+    width: 8vmax;
+    height: 5vmin;
+    background-color: black;
+    border: 1px solid #008dce;
+    border-radius: 5px;
+    padding: 7px;
+    color: #008dce;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vmax;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button1:hover {
+    background-color: #29bbff;
+    color: black;
+}
+
+#github {
+    position: absolute; /* Absolute positioning */
+    width: 2.4vw;
+    height: 2.4vw;
+    right: 2vh;
+    bottom: 2vh;
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    opacity: 0.7;
+}
+#github:hover {
+    opacity: 1;
+}
+
+/*Info Icon*/
+i[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+    font-size: 1vw;
+  }
+i[data-tooltip]::after {
+    content: attr(data-tooltip);
+    width: max-content;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    transform: scale(0);
+    transition: 0.2s ease-in-out;
+  }
+  
+  i[data-tooltip]:hover::after {
+    transform: scale(1);
+    left: 0%;
+  }
+  
+  #info-div {
+    position: absolute;
+    bottom: 3vh;
+    left: 3vh;
+    display: block;
+    color: white;
+  }
+  
+  i {
+    color: white;
+    opacity: 0.55;
+    cursor: pointer;
+  }
+  

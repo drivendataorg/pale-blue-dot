@@ -13,7 +13,7 @@ QGIS: Ensure you have QGIS installed on your computer. You can download the late
 1. Download the GeoPackage: Make sure you have downloaded the GeoPackage file containing our datasets and processed features.
 2. Launch QGIS: Open QGIS on your computer.
 3. Navigate to GeoPackage: In the Browser Panel, navigate to “GeoPackage”
-4. Add GeoPackage: Right-click “GeoPackage” and select “New Connection” Navigate your file explorer and select the GeoPackage file (PBDC_Spatial_Clan.gpkg) to add it to the QGIS Browser Panel.
+4. Add GeoPackage: Right-click “GeoPackage” and select “New Connection” Navigate your file explorer and select the GeoPackage file (`PBDC_Spatial_Clan.gpkg`) to add it to the QGIS Browser Panel.
 5. Access Datasets and Processed Features: Once the GeoPackage is added to the Browser Panel, you can expand it to view the datasets and processed features stored within.
 6. Open QGIS Project: To open the QGIS project file that lies within the GeoPackage, navigate to PBDC_Spatial_Clan and double-click the file to load the project.
 7. Review Project: Once the project is loaded, you should see the datasets and processed features on the
@@ -114,3 +114,21 @@ Similar to the process detailed in section 2.4 for Map B, this approach was take
 ## 4. Layout
 
 Additional elements added to the layout other than the standard map elements included the disaster icons that were used to show the percentage occurrence of disasters in Turkana and Marsabit counties. These humanitarian icons were obtained from [UN OCHA’s icon vocabulary](https://brand.unocha.org/d/xEPytAUjC3sH/icons?_gl=1*j7iasm*_ga*NTMzMjI1NjkyLjE3MDg3MTMwMDA.*_ga_E60ZNX2F68*MTcxMDkzNjM1NS4zLjAuMTcxMDkzNjM1NS42MC4wLjA.#/-/humanitarian-icons).
+
+## 5. Data
+
+Below is a list of all data files used:
+
+```
+├── Counties - Kenya
+│   ├── County.dbf
+│   ├── County.prj
+│   ├── County.sbn
+│   ├── County.sbx
+│   ├── County.shp
+│   ├── County.shp.xml
+│   └── County.shx
+├── Food Security Analysis.xlsx
+├── KE_Disaster Events.csv
+└── g4.accumulate.TRMM_3B42RT_7_precipitation.20140101-20240120.33E_4S_42E_5N.nc
+```

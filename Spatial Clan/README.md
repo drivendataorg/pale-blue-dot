@@ -9,17 +9,16 @@ QGIS: Ensure you have QGIS installed on your computer. You can download the late
 
 ### Instructions:
 
-i. Download the GeoPackage: Make sure you have downloaded the GeoPackage file containing our datasets and processed features.
-ii. Launch QGIS: Open QGIS on your computer.
-iii. Navigate to GeoPackage: In the Browser Panel, navigate to “GeoPackage”
-iv. Add GeoPackage: Right-click “GeoPackage” and select “New Connection” Navigate your file explorer
-and select the GeoPackage file (PBDC_Spatial_Clan.gpkg) to add it to the QGIS Browser Panel.
-v. Access Datasets and Processed Features: Once the GeoPackage is added to the Browser Panel, you can
-expand it to view the datasets and processed features stored within.
-vi. Open QGIS Project: To open the QGIS project file that lies within the GeoPackage, navigate to
-PBDC_Spatial_Clan and double-click the file to load the project.
-vii. Review Project: Once the project is loaded, you should see the datasets and processed features on the
+1. Download the GeoPackage: Make sure you have downloaded the GeoPackage file containing our datasets and processed features.
+2. Launch QGIS: Open QGIS on your computer.
+3. Navigate to GeoPackage: In the Browser Panel, navigate to “GeoPackage”
+4. Add GeoPackage: Right-click “GeoPackage” and select “New Connection” Navigate your file explorer and select the GeoPackage file (PBDC_Spatial_Clan.gpkg) to add it to the QGIS Browser Panel.
+5. Access Datasets and Processed Features: Once the GeoPackage is added to the Browser Panel, you can expand it to view the datasets and processed features stored within.
+6. Open QGIS Project: To open the QGIS project file that lies within the GeoPackage, navigate to PBDC_Spatial_Clan and double-click the file to load the project.
+7. Review Project: Once the project is loaded, you should see the datasets and processed features on the
 map canvas.
 
+<center>
 ![](images/1_review_project.png)
-<center><em>Figure 1: GeoPackage in QGIS</em></center>
+<em>Figure 1: GeoPackage in QGIS</em>
+</center>

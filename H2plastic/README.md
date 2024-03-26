@@ -34,3 +34,7 @@ We welcome contributions and discussions. Feel free to open an issue or submit a
 
 For more information, please contact us through the email: h20plasticc@gmail.com.
 
+***
+
+[Link to public Github repository from team H2plastic](https://github.com/Ruvitt/pale_blue_dot_competition_NASA)
+

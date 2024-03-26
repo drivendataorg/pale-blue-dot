@@ -63,6 +63,8 @@ The visualization was constructed in Power BI, using the three aforementioned da
 
 In PowerQuery, we binned the data to reduce the temporal granularity down to one day and the spatial granularity down to 0.01°, which markedly improved performance of the visualizations and would allow for faster refreshes in the future with more years of data. All of the visuals are included with the standard free version of Power BI Desktop, with custom measures to explore the variables; i.e. Average AQI by Year, Cumulative Area Burned, and Cumulative Fire Radiative Power. The most geographically pertinent data came from the MODIS Active Fire and Burned Area data sets, which was displayed using the standard ArcGIS map, with the built-in heat map clustering and symbology on the Streets basemap.
 
+***
+
 [Link to public Github repository from team Hunatek-Kalman](https://github.com/bwalzer4/NASA-Pale-Blue-Dot/)
 
 

@@ -24,3 +24,7 @@ This repository contains a suite of Python scripts specifically designed to proc
 8 -lst_tiff2geojson.py: Converts LST data from TIFF to GeoJSON format, facilitating integration with Kepler.gl for dynamic visualization.
 
 9- metrics.py: Generates suitability metrics for solar panel installation on a scale of 0 to 10, based on NDVI, LST, DEM, and slope data. The slope data is obtained using QGIS.
+
+***
+
+[Link to public Github repository from team EE Frogs](https://github.com/bastian6666/PBD_code)

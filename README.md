@@ -31,7 +31,7 @@ Hunatek-Kalman | <a href="https://www.drivendata.org/users/bwalzer009/">bwalzer0
 Spatial Clan | <a href="https://www.drivendata.org/users/Insights101/">Insights101</a> and <a href="https://www.drivendata.org/users/linusanari_/">linusanari_</a> | Maps food insecurity risk by combining drought reports (Kenya's National Drought Management Authority) and satellite-based rainfall data (<a href="https://disc.gsfc.nasa.gov/datasets/TRMM_3B42RT_7/summary">NASA</a>)
 Viva Aqua | <a href="https://www.drivendata.org/users/AtomicTiger/">AtomicTiger</a>, <a href="https://www.drivendata.org/users/franfurey/">franfurey</a>, <a href="https://www.drivendata.org/users/Jaay/">Jaay</a>, and <a href="https://www.drivendata.org/users/Malenag/">Malenag</a> | Models groundwater level in The Gambia to identify locations for new water wells using <a href="https://www.earthdata.nasa.gov/sensors/modis">MODIS imagery</a>, groundwater data from <a href="https://ggis.un-igrac.org/">IGRAC</a> and the <a href="https://www2.bgs.ac.uk/groundwater/international/africangroundwater/mapsDownload.html">British Geological Survey</a>, and satellite-based precipitation models from NASA's <a href="https://gpm.nasa.gov/data/imerg">IMERG</a>
 
-Additional solution details can be found in the `reports` folder inside the directory for each submission.
+Full winning submissions are shared in the `submission` folder inside the directory for each team. Additional solution details can be found in the `reports` folder.
 
 **Community Code Bonus Prize**
 

@@ -37,10 +37,7 @@
     <li><a href="#machine-learning">Machine Learning</a></li>
     <li><a href="#visualization">Visualization</a></li>
     <li><a href="#future-work">Future Work</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#references">References</a></li>
   </ol>
@@ -237,19 +234,6 @@ Given the enormous potential scale of this project, and the fact that we were ju
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-# Contributing
-
-Whether you would like to help with any of the future work outlined above, add your own data/ML models, or have any other ideas/suggestions - all contributions are welcome and encouraged! Simply fork the repo and create a pull request. You can also open an issue with the tag "enhancement". Thanks in advance for your contributions, and feel free to <a href="#contact">contact us</a> with questions!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Built With
 ![Python][Python]
 ![scikit-learn][scikit-learn]
@@ -271,25 +255,6 @@ Whether you would like to help with any of the future work outlined above, add y
 ![Kepler.gl](https://img.shields.io/badge/Kepler.gl-%2300aee3.svg?style=for-the-badge&logo=kepler&logoColor=black)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-%2373a99b.svg?style=for-the-badge&logo=gpt&logoColor=white)
 ![Copilot](https://img.shields.io/badge/Copilot-%23111680.svg?style=for-the-badge&logo=copilot&logoColor=white)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-[![GMAIL](https://img.shields.io/badge/Adam-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adzheng@tamu.edu)
-[![LinkedIn](https://img.shields.io/badge/Adam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-zheng/)
-[![LinkedIn](https://img.shields.io/badge/Francisco-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-furey-44519113b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

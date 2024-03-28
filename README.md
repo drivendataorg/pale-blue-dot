@@ -1,11 +1,7 @@
-<center>
-
 [<img src='https://s3.amazonaws.com/drivendata-public-assets/logo-white-blue.png' width='500'>](https://www.drivendata.org/)
 <br><br>
 
 [<img src='https://s3.amazonaws.com/drivendata-public-assets/competition-open-science-laos-cultivation.jpeg' width='500'>](https://www.drivendata.org/competitions/256/)
-
-</center>
 
 # Pale Blue Dot: Visualization Challenge
 

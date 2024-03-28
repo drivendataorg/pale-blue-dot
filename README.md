@@ -35,15 +35,16 @@ Full winning submissions are shared in the `submission` folder inside the direct
 
 **Community Code Bonus Prize**
 
-Katso Obotsang (username [Katso](https://www.drivendata.org/users/Katso/)) won the Community Code Bonus Prize for the [post](https://www.drivendata.org/competitions/256/pale-blue-dot/community-code/124/) "Creating a visualization from your csv file in Python". Katso is based in Kweneng District, Botswana.
+Katso Obotsang (username [Katso](https://www.drivendata.org/users/Katso/)) won the [Community Code Bonus Prize](https://www.drivendata.org/competitions/256/pale-blue-dot/page/802/#community-code-bonus-prize) for the [post](https://www.drivendata.org/competitions/256/pale-blue-dot/community-code/124/) "Creating a visualization from your csv file in Python". Katso is based in Kweneng District, Botswana.
 
 **Honorable Mentions for Compelling Visuals**
 
-33 submissions received an Honorable Mention for Compelling Visuals. Check out the Honorable mention gallery page to see all of their visuals!
-<!-- TODO: add link to gallery once available -->
+33 submissions received an [Honorable Mention for Compelling Visuals](https://www.drivendata.org/competitions/256/pale-blue-dot/page/802/#honorable-mentions-for-compelling-visuals). Check out the [Honorable Mentions gallery](https://www.drivendata.org/competitions/256/pale-blue-dot/page/877/) page to see all of their visuals!
 
 ## References
 
 **Winners Blog Post: [Meet the winners of the Pale Blue Dot Challenge](https://drivendata.co/blog/pale-blue-dot-winners)**
+
+**Honorable Mentions for Compelling Visuals: [Honorable Mentions gallery](https://www.drivendata.org/competitions/256/pale-blue-dot/page/877/)**
 
 **Data Resources Blog Post: [Open Earth Observation Data for the Pale Blue Dot: Visualization Challenge](https://drivendata.co/blog/public-eo-data-sources)**

@@ -26,14 +26,6 @@ Anyone interested in accessing our interactive dashboard can simply click on the
 
 [Access our Interactive Dashboard](https://www.figma.com/proto/4c86b8QprAADUKkZKLPlVj/Dashboard?page-id=0%3A1&type=design&node-id=1-11&viewport=2118%2C331%2C0.58&t=brYHqO2GbJaj87Sb-1&scaling=contain&starting-point-node-id=1%3A11&mode=design)
 
-## Contributions
-
-We welcome contributions and discussions. Feel free to open an issue or submit a pull request for any suggestions or questions.
-
-## Contact
-
-For more information, please contact us through the email: h20plasticc@gmail.com.
-
 ***
 
 [Link to public Github repository from team H2plastic](https://github.com/Ruvitt/pale_blue_dot_competition_NASA)
